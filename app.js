@@ -18,6 +18,7 @@ const puppeteer = require('puppeteer');
   const pdf = await page.pdf({ 
     format: 'A4',
     margin : margin,
+    printBackground: true,
     });
 
   await browser.close();

@@ -25,8 +25,9 @@ async function downloadHtmlToPdf(pdfFilePath) {
     printBackground: true,
     margin: { top: '1cm', right: '1cm', bottom: '1cm', left: '1cm' },
   });
-  
   await browser.close();
+
+  // Write the PDF to a file
 }
 
 // Example usage:
