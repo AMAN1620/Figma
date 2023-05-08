@@ -4,9 +4,21 @@ const puppeteer = require('puppeteer');
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
-  await page.goto('https://www.google.com', { waitUntil: 'networkidle0' });
+  await page.goto('https://aman1620.github.io/Figma/', { waitUntil: 'networkidle0'});
+  await page.emulateMediaType('screen');
 
-  const pdf = await page.pdf({ format: 'A4' });
+  // Set margin options
+  const margin = {
+    top: '2cm',
+    bottom: '1cm',
+    left: '1cm',
+    right: '1cm'
+  };
+
+  const pdf = await page.pdf({ 
+    format: 'A4',
+    margin : margin,
+    });
 
   await browser.close();
 
@@ -14,7 +26,6 @@ const puppeteer = require('puppeteer');
   const fs = require('fs');
   fs.writeFileSync('example.pdf', pdf);
 })();
-
 
 
 // const downloadBtn = document.getElementById('download-btn');

@@ -1,8 +1,9 @@
-body{
-    margin: 5% auto;
-    margin-left: 5%;
-}
+/* body{
+} */
 .A4-2{
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
     background-image: url("images/background.png");
 }
 h1 {
@@ -15,6 +16,7 @@ h2{
     margin-top: 5%;
 }
 hr {
+    display:block;
     margin-right:10%;
     position: relative;
     border: none;
@@ -25,11 +27,10 @@ hr {
 }
 .A4-2 .flex-container {
     position: relative;
-    margin-top: 5%;
     display: flex;
   } 
 .A4-2 .flex-item {
-    flex: 2;
+    flex: 1;
 }
 .A4-2 .flex-item.item-3{
 margin-left: 20px;
@@ -54,14 +55,14 @@ margin-left: 20px;
     position: relative;
     margin-top: 1%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: column;
   }
   
 .A4-3 .flex-item {
     flex: 1;
-    margin-left: 10%;
-    margin-right: 10%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
 }
 
 .A4-3 .flex-container .flex-item .name{
@@ -72,6 +73,74 @@ margin-left: 20px;
   margin-top: 5%;
   margin-inline-start: 40%;
 }
-.A4-3 .item-8{
+.A4-4{
+    background-image: url("images/background3.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    page-break-before: always;
+}
+.A4-4 .h1 {
+    font-size: 36px;
+    text-align:left;
+    color: #F1E0C4;
+}
+.A4-4 .flex {
+    position: relative;
     margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.A4-4 .flex-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    /* margin-right: 5%; */
+}
+.A4-4 .item-1{
+    flex: 1;
+}
+.A4-4  .item-2{
+    flex:8;
+}
+.A4-4  .heading{
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 5% ;
+    margin-right: 10%;
+    color: #F1F2F2;
+} 
+.A4-4  .item-2 .numerical{
+    color: #F1F2F2;
+    font-size: 30px;  
+} 
+.A4-4  .item-2 .title-1{
+    margin-left: 2%;
+    font-size: 20px;
+    color: #F48385;
+}
+.A4-4 .item-2 .title-2{
+    margin-left: 2%;
+    font-size: 20px;
+    color: #7EC460;
+}
+.A4-4  .item-2 .title-3{
+    margin-left: 2%;
+    font-size: 20px;
+    color: #EB78AF;
+}
+.A4-4 .item-2 .title-4{
+    margin-left: 2%;
+    font-size: 20px;
+    color: #748ABE;
+}
+.A4-4 .item-2 .title-5{
+    margin-left: 2%;
+    font-size: 20px;
+    color: #F6AE2A;
+}
+.A4-4 .item-2 .content{
+    color:#F1F2F2
+
 }

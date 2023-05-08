@@ -12,12 +12,14 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<div class="A4-2">
+<div class="A4-2" style="background-image: url('images/background.png')">
         <header>
             <h1>What does this report contains?</h1>
         </header>
-        
-        <hr>
+        <div class="hr">
+            <!-- <hr style="margin-right: 10%; position: relative; border: none; overflow: visible; text-align: center; height: 5px; background: linear-gradient(90deg, #BE5F9F 0%, #763782 100%);"> -->
+            <hr>
+        </div>
         <!--Section 1 of flex box-->
         <div class="flex-container">
             <section class="section-1">
@@ -73,7 +75,7 @@
         </section>
     
         <!--Section 3 of flex box-->
-        <section class="section-3"></section>
+        <section class="section-3">
             <div class="flex-item item-3">
                 <div class="flex-item item-1">
                     <article>
@@ -167,19 +169,107 @@
         <div class = "flex-item item-7">
             <img class="image" src="images/Rectangle.png"  alt="This is cartoon hahaha">
         </div>
-    </div>
-    <div class = "flex-item item-8">
-        <p>We all constantly change with time, remember that as you read this report 
-            reflecting your strengths right now and ways you an unlock a better version of yourself.
-        </p>
+        <div class = "flex-item item-8">
+            <p>We all constantly change with time, remember that as you read this report 
+                reflecting your strengths right now and ways you an unlock a better version of yourself.
+            </p>
+        </div>
     </div>
 </div>
 
 <br>
 
+
+<div class="A4-4">
+
+    <header>
+        <h1>Science behind recommendations</h1>
+    </header>
+    <hr>
+    <p class="heading">
+        Redeminds adopts a data-driven scientific approach that is combined with extensive
+        psychological research of carrers and attributes.
+    </p>
+    <div class="flex">
+    <div class="flex-container">
+        <div class = "flex-item item-1">
+            <img src="images/Group1.png" alt="">
+        </div>
+        <div class="flex-item item-2">
+            <div class="desc">
+               <span class="numerical">01</span><span class="title-1">Personality</span>
+               <p class="content">The personality traits are based on the OCEAN Model which was first
+                given by Lewis Goldberg, and later developed by Costa and McCrae. The OCEAN model of 
+                personality views human personality as five primary traits, which are Openness to experience,
+                Conscientiousness,Extroversion, Agreeableness, and Neuroticism.
+               </p>
+            </div>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class = "flex-item item-1">
+            <img src="images/Group2.png" alt="">
+        </div>
+        <div class="flex-item item-2">
+            <div class="desc">
+               <span class="numerical">02</span><span class="title-2">Intelligence</span>
+               <p class="content">Howard Gardner proposed a theory that suggested eight types of
+                Intelligence which suggested that there are multiple ways in which human can be smart
+                rather than having only one aspect of being intelligent. The difference in Intelligence
+                is based on the development of an individual and their surroundings.
+               </p>
+            </div>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class = "flex-item item-1">
+            <img src="images/Group3.png" alt="">
+        </div>
+        <div class="flex-item item-2">
+            <div class="desc">
+               <span class="numerical">03</span><span class="title-3">Vocational Interests</span>
+               <p class="content">The vocational interests are adopted from John L. holland;s theory
+                of carrer choice which explained how certain personalities are better for particular carrer
+                choices. for example, an extrovert will have more fun being a teacher tha an introvert.
+                He found that there are essentially six types of vocational personalities.
+               </p>
+            </div>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class = "flex-item item-1">
+            <img src="images/Group4.png" alt="">
+        </div>
+        <div class="flex-item item-2">
+            <div class="desc">
+               <span class="numerical">04</span><span class="title-4">Learning Styles</span>
+               <p class="content">Learning Styles were developed as an index to assess the learning preference in 
+                four dimensions by Richard M. Felder and Linda K. The ILS is a self-assessment tool that helps individuals understand their preferred learning style 
+                and provides guidance on how to adapt their learning strategies to better match their style.
+               </p>
+            </div>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class = "flex-item item-1">
+            <img src="images/Group5.png" alt="">
+        </div>
+        <div class="flex-item item-2">
+            <div class="desc">
+               <span class="numerical">05</span><span class="title-5">Carrer Orientation</span>
+               <p class="content">The concept of Carrer Orientations or carrer anchors as
+                called by Edgar Schein which refers to an individual's self-perceived talents, abilities, and values that guide their career choices and development. According to Schein, 
+                individuals develop career anchors through a combination of their early life experiences, feedback from others, and their own self-reflection
+               </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
 <!-- <button onclick="window.print()">Download PDF</button> -->
 
-<button onclick="downloadPDF()">Download PDF</button>
+<!-- <button onclick="downloadPDF()">Download PDF</button> -->
 
 <script src = app.js></script>
 </body>
