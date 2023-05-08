@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="A4-2">
+        <header>
+            <h1>What does this report contains?</h1>
+        </header>
+        
+        <hr>
+        <!--Section 1 of flex box-->
+        <div class="flex-container">
+            <section class="section-1">
+            <div class="flex-item item-1">
+                <article>
+                    <p class="heading">
+                        How to use this report?
+                    </p>
+                    <p class="sub-heading">
+                        know about interests skills and personality that suits you the best.
+                    </p>
+                </article>
+                <article>
+                    <p class="heading">
+                        Who am I?
+                    </p>
+                    <p class="sub-heading">
+                        know about interests skills and personality that suits you the best.
+                    </p>
+                </article>
+                <article>
+                    <p class="heading">
+                        How do I know about my Intelligence?
+                    </p>
+                    <p class="sub-heading">
+                        Understand your strengths and weakness and learn how it useful for future carrers
+                    </p>
+                </article> 
+                <article>
+                    <p class="heading">
+                        What am I skilled at?
+                    </p>
+                    <p class="sub-heading">
+                        A comprehensive list of your Dominant Competencies
+                    </p>
+                </article> 
+                <article>
+                    <p class="heading">
+                        Future Carrers
+                    </p>
+                    <p class="sub-heading">
+                        Selection of futuristic paths for you
+                    </p>
+                </article>   
+            </div>
+        </section>
+    
+        <!--Section 2 of flex box-->
+        <section class="section-2">
+            <div class="flex-item item-2">
+                <img src="images/Group.png" alt="this is image"/>
+            </div>
+        </section>
+    
+        <!--Section 3 of flex box-->
+        <section class="section-3"></section>
+            <div class="flex-item item-3">
+                <div class="flex-item item-1">
+                    <article>
+                        <p class="heading">
+                            Science behind recommendations
+                        </p>
+                        <p class="sub-heading">
+                            know about interests skills and personality that suits you the best.
+                        </p>
+                    </article>
+                    <article>
+                        <p class="heading">
+                            What is my personality?
+                        </p>
+                        <p class="sub-heading">
+                            Get to know the traits which suits describes you best and suggest suitable carrers
+                        </p>
+                    </article>
+                    <article>
+                        <p class="heading">
+                            What are my Vocational Interests?
+                        </p>
+                        <p class="sub-heading">
+                            Learn about your interests and know which are the best suited carrers
+                        </p>
+                    </article>
+                    <article>
+                        <p class="heading">
+                            What's out there for me?
+                        </p>
+                        <p class="sub-heading">
+                            A list of carrers that best suited for you
+                        </p>
+                    </article>
+                    <article>
+                        <p class="heading">
+                            Interospective Sheet
+                        </p>
+                        <p class="sub-heading">
+                            A list of questions that you can ask yourself
+                        </p>
+                    </article>
+            </div>
+        </section>
+        </div>
+    </div> 
+</div>
+
+<br>
+
+<div class="A4-3">
+    <header>
+        <h1>How to use this report?</h1>
+    </header>
+	
+    <hr>
+
+    <div class="flex-container">
+        <div class = "flex-item item-1">
+            <h2> Welcome <span class="name"> Ankit! </span></h2>
+        </div>
+        <div class = "flex-item item-2">
+            <p>
+                You have been walking this journey all by yourself untill now,from here onwards
+                untill we will help you choose the right path with Olwin, who will be right
+                by your side, throughout this report.
+            </p>
+        </div>
+        <div class = "flex-item item-3">
+            <p>
+                You have taken the <strong>Redeminds Comprehensive Assessment,</strong> now we will go through 
+                the results, understand what they mean, and suggest future steps.
+            </p>
+        </div>
+        <div class = "flex-item item-4">
+            <p>
+                <strong>The Redeminds Carrers inshight report</strong> is a guide to informed 
+                carrer choices based on your identified skills, abilities, personality, and interests.
+            </p>
+        </div>
+        <div class = "flex-item item-5">
+            <p>
+                You may reflect on your choice of interests and develop added talents from the information you learn here.
+            </p>
+        </div>
+        <div class = "flex-item item-6">
+            <p>
+                Please note that this is just the starting step of discovering your carrer journey and in no way this is definitive.
+            </p>
+        </div>
+        <div class = "flex-item item-7">
+            <img class="image" src="images/Rectangle.png"  alt="This is cartoon hahaha">
+        </div>
+    </div>
+    <div class = "flex-item item-8">
+        <p>We all constantly change with time, remember that as you read this report 
+            reflecting your strengths right now and ways you an unlock a better version of yourself.
+        </p>
+    </div>
+</div>
+
+<br>
+
+<!-- <button onclick="window.print()">Download PDF</button> -->
+
+<button onclick="downloadPDF()">Download PDF</button>
+
+<script src = app.js></script>
+</body>
+</html>
