@@ -82,7 +82,7 @@ margin-left: 20px;
 .A4-4 .h1 {
     font-size: 36px;
     text-align:left;
-    /* color: #F1E0C4; */
+    color: #F1E0C4;
 }
 .A4-4 .flex {
     position: relative;
@@ -109,10 +109,10 @@ margin-left: 20px;
     margin-top: 2%;
     margin-left: 5% ;
     margin-right: 10%;
-    /* color: #F1F2F2; */
+    color: #F1F2F2;
 } 
 .A4-4  .item-2 .numerical{
-    /* color: #F1F2F2; */
+    color: #F1F2F2;
     font-size: 30px;  
 } 
 .A4-4  .item-2 .title-1{
@@ -140,7 +140,7 @@ margin-left: 20px;
     font-size: 20px;
     color: #F6AE2A;
 }
-/* .A4-4 .item-2 .content{
+.A4-4 .item-2 .content{
      color:#F1F2F2 
 
-} */
+}
