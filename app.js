@@ -7,6 +7,15 @@ const puppeteer = require('puppeteer');
   await page.goto('https://aman1620.github.io/Figma/', { waitUntil: 'networkidle0'});
   await page.emulateMediaType('screen');
 
+  await page.addStyleTag({
+    content: `
+      body {
+        background-image: url('C:\Users\amana\OneDrive\Desktop\FigmaFageNew\images\background3.png');
+        background-size: cover;
+      }
+    `
+  });
+
   // Set margin options
   const margin = {
     top: '2cm',

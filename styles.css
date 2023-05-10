@@ -4,7 +4,7 @@
     margin-top: 5%;
     margin-left: 2%;
     margin-right: 2%;
-    background-image: url("images/background.png");
+    /* background-image: url("images/background.png"); */
 }
 h1 {
     font-size: 36px;
@@ -48,7 +48,7 @@ margin-left: 20px;
 }
 
 .A4-3{
-    background-image: url("images/background.png");
+    /* background-image: url("images/background.png"); */
     page-break-before: always;
 }
 .A4-3 .flex-container {
@@ -74,7 +74,7 @@ margin-left: 20px;
   margin-inline-start: 40%;
 }
 .A4-4{
-    background-image: url("images/background3.png");
+    /* background-image: url("images/background3.png"); */
     background-size:cover;
     background-repeat: no-repeat;
     page-break-before: always;
