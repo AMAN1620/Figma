@@ -1,3 +1,5 @@
+// Working properly
+
 const puppeteer = require('puppeteer');
 
 (async () => {
@@ -7,17 +9,19 @@ const puppeteer = require('puppeteer');
   await page.goto('https://aman1620.github.io/Figma/', { waitUntil: 'networkidle0'});
   await page.emulateMediaType('screen');
 
-  // Set margin options
-  const margin = {
-    top: '1cm',
-    bottom: '1cm',
-    left: '1cm',
-    right: '1cm'
-  };
+  // // Set margin options
+  // const margin = {
+  //   top: '1cm',
+  //   bottom: '1cm',
+  //   left: '1cm',
+  //   right: '1cm'
+  // };
 
   const pdf = await page.pdf({ 
-    format: 'A4',
-    margin : margin,
+    // format:'A4',
+    width: "297mm",
+  height: "210mm",
+    // margin : margin,
     printBackground: true,
     });
 
