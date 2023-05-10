@@ -20,7 +20,7 @@ const puppeteer = require('puppeteer');
   const pdf = await page.pdf({ 
     // format:'A4',
     width: "297mm",
-  height: "210mm",
+    height: "210mm",
     // margin : margin,
     printBackground: true,
     });

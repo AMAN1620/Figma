@@ -100,12 +100,13 @@ body {
      background-image: url("images/background3.png");
      
     /* Height and width for landscape */
-    height: 209.5mm;
+    /* height: 209.5mm; */
     /* width: 297mm; */
     
    /* height and width for A4 */
     /* width: 210mm;  */
-   /* height: 296mm; */
+   height: 296.5mm;
+   /* height: 100%; */
     /*  */
     
     margin:0;
@@ -190,12 +191,13 @@ body {
     background-image: url("images/background3.png");
 
     /* Height and width for landscape */
-    height: 209.5mm;
+    /* height: 209.5mm; */
     /* width: 297mm; */
 
    /* height and width for A4 */
     /* width: 210mm;  */
-   /* height: 296mm; */
+   height: 296.5mm;
+   /* height: 100%; */
     /*  */
    margin:0;
    background-size:cover;
@@ -291,4 +293,272 @@ body {
     font-size: 20px;
     color: #F6AE2A;
 }
+
+/* CSS for A4-6 */
+.A4-6{
+    background-image: url("images/background.png");
+   /* Height and width for landscape */
+   /* height: 209.5mm; */
+   /* width: 297mm; */
+  /* height and width for A4 */
+   /* width: 210mm;  */
+  height: 296.5mm;
+   /*  */
+   margin:0;
+   background-size:cover;
+   background-repeat: no-repeat;
+   page-break-before: always; 
+   page-break-after: always; 
+   /* page-break-inside:avoid; */
+}
+.A4-6-content{
+    /* margin-top: 3%;  */
+   margin-left: 3%;
+   margin-right: 3%;
+}
+.A4-6-content .image-top{
+    margin-left: 30%;
+    width: 400px;
+    height: 250px;
+}
+.A4-6-content .chart{
+    /* width: 100%;
+    display: block; */
+    margin-left: 10%;
+}
+.A4-6-content .heading{
+    margin-left: 10%;
+}
+.A4-6-content .flex-container {
+    position: relative;
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+.A4-6-content .flex-item {
+    flex: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.A4-6-content .title-1{
+    color: #00ADE1;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.A4-6-content .title-2{
+    color: #E977AF;
+    font-size: 24px;
+    font-weight: bold;  
+}
+.A4-6-content .title-3{
+    color: #00ADE1;
+    font-size: 24px;
+    font-weight: bold;  
+}
+
+.A4-6-content .title-4{
+    color: #98C75F;
+    font-size: 24px;
+    font-weight: bold;  
+}
+
+.A4-6-content .title-5{
+    color: #FCB335;
+    font-size: 24px;
+    font-weight: bold;  
+}
+
+/* Start of A4-7 */
+.A4-7{
+    background-image: url("images/background.png");
+   /* Height and width for landscape */
+   /* height: 209.5mm; */
+   /* width: 297mm; */
+  /* height and width for A4 */
+   /* width: 210mm;  */
+  height: 296.5mm;
+   /*  */
+   margin:0;
+   background-size:cover;
+   background-repeat: no-repeat;
+   page-break-before: always; 
+   page-break-after: always; 
+   /* page-break-inside:avoid; */
+}
+.A4-7-content{
+    /* margin-top: 3%;  */
+   margin-left: 3%;
+   margin-right: 3%;
+}
+.A4-7-content .flex-container {
+    position: relative;
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+.A4-7-content .heading{
+    /* margin-top:  2%; */
+    font-size: larger;
+}
+.A4-7-content .flex-item {
+    flex: 1;
+    margin-right: 5%;
+}
+
+.A4-7-content strong{
+    font-size: larger;
+}
+
+.A4-7-content .flex-item .desc{
+    font-size: large;
+}
+.A4-7-content .chart{
+    /* width: 100%;
+    display: block;
+    margin-top: 2%; */
+    margin-left: 10%;
+}
+
+/* Start of A4-8 CSS */
+
+.A4-8{
+    background-image: url("images/background3.png");
+   /* Height and width for landscape */
+   /* height: 209.5mm; */
+   /* width: 297mm; */
+  /* height and width for A4 */
+   /* width: 210mm;  */
+  height: 296.5mm;
+   /*  */
+   margin:0;
+   background-size:cover;
+   background-repeat: no-repeat;
+   page-break-before: always; 
+   page-break-after: always; 
+   /* page-break-inside:avoid; */
+}
+.A4-8-content{
+    /* margin-top: 3%;  */
+   margin-left: 3%;
+   margin-right: 3%;
+}
+
+.A4-8-content h1 {
+    font-size: 36px;
+    text-align:left;
+    color: #F1E0C4;
+}
+
+.A4-8-content .heading{
+    font-size: 20px;
+    margin-top: 2%;
+    margin-right: 10%;
+    color: #F1F2F2;
+}
+.A4-8-content strong{
+    font-size: larger;
+    color: #F1E0C4;
+}
+.A4-8-content .desc{
+    font-size: large;
+    color: #F1F2F2;
+}
+
+.A4-8-content .paragraph{
+    margin-right: 5%;
+}
+
+/* circular progress chart */
+
+/* *,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+/* .container {
+  height: 400px;
+  width: 400px;
+  background-color: #ffffff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 8px;
+  box-shadow: 20px 20px 40px rgba(60, 60, 150, 0.25);
+  display: grid;
+  place-items: center;
+} */
+.A4-8-content .circular-progress {
+    position: relative;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  }
+
+.A4-8-content .circular-progress:before {
+    content: "";
+    position: absolute;
+    height: 84%;
+    width: 84%;
+    background-color: #200F32;
+    border-radius: 50%;
+  }
+
+.A4-8-content .value-container {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #F1E0C4;
+  }
+
+.A4-8-content .flex-container {
+    position: relative;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center;
+    align-content: center;
+    text-align: center; */
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+.A4-8-content .flex-item {
+    flex: 1;
+  }
+
+.A4-8-content .text{
+    align-content: center;
+    margin-top: 5%;
+    /* margin-left: auto; */
+    font-size: larger;
+    color: #F1E0C4;
+  }
+
+.A4-8-content .flex-container-2 {
+    position: relative;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    /* align-items: center;
+    align-content: center;
+    text-align: center; */
+    margin-right: 20%;
+    margin-left: 15%;
+}
+
+
+
 
