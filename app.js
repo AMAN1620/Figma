@@ -30,7 +30,6 @@ const puppeteer = require('puppeteer');
   fs.writeFileSync('example.pdf', pdf);
 })();
 
-
 // const downloadBtn = document.getElementById('download-btn');
 // downloadBtn.addEventListener('click', () => {
 //     const { jsPDF } = window.jspdf;
